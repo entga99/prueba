@@ -17,6 +17,7 @@ app.use(morgan('tiny'));
 app.use(require('./routes/user'))
 app.use(require('./routes/upload'))
 app.use(require('./routes/time'))
+app.use(require('./routes/contact'))
 
 
 //server start
